@@ -34,9 +34,11 @@ namespace GreenvilleRevenueGUI
             bool moreThisYear = thisYear > lastYear;
 
             lastYearBox.Text = "There were " + lastYear + " contestants last year, and " + thisYear + " constestants this year.";
+            lastYearBox.Visible = true;
             thisYearBox.Text = "To say that there were more contestants this year than last year would be: " + moreThisYear;
+            thisYearBox.Visible = true;
             revenueBox.Text = "Expected revenue for this year's competition is: $" + currentRevenue;
-          
+            revenueBox.Visible = true;
 
         }
     }

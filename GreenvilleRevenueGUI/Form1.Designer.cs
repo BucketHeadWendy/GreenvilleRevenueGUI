@@ -41,7 +41,7 @@
             // lastLabel
             // 
             this.lastLabel.AutoSize = true;
-            this.lastLabel.Location = new System.Drawing.Point(13, 61);
+            this.lastLabel.Location = new System.Drawing.Point(12, 9);
             this.lastLabel.Name = "lastLabel";
             this.lastLabel.Size = new System.Drawing.Size(281, 13);
             this.lastLabel.TabIndex = 0;
@@ -50,7 +50,7 @@
             // thisLabel
             // 
             this.thisLabel.AutoSize = true;
-            this.thisLabel.Location = new System.Drawing.Point(13, 113);
+            this.thisLabel.Location = new System.Drawing.Point(12, 44);
             this.thisLabel.Name = "thisLabel";
             this.thisLabel.Size = new System.Drawing.Size(281, 13);
             this.thisLabel.TabIndex = 1;
@@ -59,22 +59,26 @@
             // lastYearBox
             // 
             this.lastYearBox.AutoSize = true;
-            this.lastYearBox.Location = new System.Drawing.Point(13, 217);
+            this.lastYearBox.Location = new System.Drawing.Point(12, 112);
             this.lastYearBox.Name = "lastYearBox";
-            this.lastYearBox.Size = new System.Drawing.Size(0, 13);
+            this.lastYearBox.Size = new System.Drawing.Size(63, 13);
             this.lastYearBox.TabIndex = 2;
+            this.lastYearBox.Text = "lastYearBox";
+            this.lastYearBox.Visible = false;
             // 
             // thisYearBox
             // 
             this.thisYearBox.AutoSize = true;
-            this.thisYearBox.Location = new System.Drawing.Point(13, 265);
+            this.thisYearBox.Location = new System.Drawing.Point(12, 133);
             this.thisYearBox.Name = "thisYearBox";
-            this.thisYearBox.Size = new System.Drawing.Size(0, 13);
+            this.thisYearBox.Size = new System.Drawing.Size(63, 13);
             this.thisYearBox.TabIndex = 3;
+            this.thisYearBox.Text = "thisYearBox";
+            this.thisYearBox.Visible = false;
             // 
             // CalcNow
             // 
-            this.CalcNow.Location = new System.Drawing.Point(243, 169);
+            this.CalcNow.Location = new System.Drawing.Point(121, 69);
             this.CalcNow.Name = "CalcNow";
             this.CalcNow.Size = new System.Drawing.Size(134, 23);
             this.CalcNow.TabIndex = 4;
@@ -85,21 +89,23 @@
             // revenueBox
             // 
             this.revenueBox.AutoSize = true;
-            this.revenueBox.Location = new System.Drawing.Point(16, 308);
+            this.revenueBox.Location = new System.Drawing.Point(12, 154);
             this.revenueBox.Name = "revenueBox";
-            this.revenueBox.Size = new System.Drawing.Size(0, 13);
+            this.revenueBox.Size = new System.Drawing.Size(64, 13);
             this.revenueBox.TabIndex = 5;
+            this.revenueBox.Text = "revenueBox";
+            this.revenueBox.Visible = false;
             // 
             // lastBox
             // 
-            this.lastBox.Location = new System.Drawing.Point(301, 53);
+            this.lastBox.Location = new System.Drawing.Point(301, 12);
             this.lastBox.Name = "lastBox";
             this.lastBox.Size = new System.Drawing.Size(100, 20);
             this.lastBox.TabIndex = 6;
             // 
             // thisBox
             // 
-            this.thisBox.Location = new System.Drawing.Point(301, 105);
+            this.thisBox.Location = new System.Drawing.Point(301, 41);
             this.thisBox.Name = "thisBox";
             this.thisBox.Size = new System.Drawing.Size(100, 20);
             this.thisBox.TabIndex = 7;
@@ -108,7 +114,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(631, 395);
+            this.ClientSize = new System.Drawing.Size(416, 182);
             this.Controls.Add(this.thisBox);
             this.Controls.Add(this.lastBox);
             this.Controls.Add(this.revenueBox);
